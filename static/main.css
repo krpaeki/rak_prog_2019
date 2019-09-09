@@ -11,10 +11,10 @@
             align-items: center;
             margin-bottom: 25px;
         }
-        .header_logo{
-            width: 90px;
+        .header__logo{
+            width: 150px;
         }
-        .header_buttons{
+        .header__buttons{
             width: 200px;
             display: flex;
             justify-content: space-between;
@@ -47,4 +47,4 @@
         .content a{
             text-decoration: none;
         }
-    </style>
+</style>

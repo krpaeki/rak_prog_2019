@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
 
 app.use(express.static('static'));
 
-app.listen(process.env.PORT || PORT, () => {
-    console.log("Server started", PORT);
+app.listen(process.env.PORT || 3000, () => {
+    console.log("Server started", 3000);
   });
