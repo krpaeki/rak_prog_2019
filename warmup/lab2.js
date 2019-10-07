@@ -27,11 +27,7 @@ const mockItems = [
  * Task 1
  */
 const sumOfCost = items => {
-<<<<<<< HEAD
-  return items.reduce((acc, item) => acc + item.cost, 0);
-=======
   return items.reduce((acc, item) => acc + item.cost,0);
->>>>>>> lesson2
 };
 
 utils.test(sumOfCost(mockItems), 9594);
@@ -40,11 +36,7 @@ utils.test(sumOfCost(mockItems), 9594);
  * Task 2
  */
 const getPhones = items => {
-<<<<<<< HEAD
-  return "implement me"
-=======
   return items.filter( item => item.category === "phone")
->>>>>>> lesson2
 };
 
 utils.test(getPhones(mockItems).slice(-1)[0].name, "item19");
@@ -59,10 +51,6 @@ utils.test(getPhones(mockItems).length, 9);
  * Look tests below for more information
  */
 class User {
-<<<<<<< HEAD
-}
-
-=======
   constructor(){
     this.items = [];
   }
@@ -75,7 +63,6 @@ class User {
 }
 
 
->>>>>>> lesson2
 const user1 = new User();
 
 try{
